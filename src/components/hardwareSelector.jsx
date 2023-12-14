@@ -5,7 +5,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import Button from '@mui/material/Button';
-import HardwareDetailPopup from './hardwareDetailPopup';
+import HardwareDetailPopup from './HardwareDetailPopup';
 
 const HardwareSelector = ({ label, selectedHardware, onChange, hardwareData }) => {
   const [isPopupOpen, setPopupOpen] = useState(false);
