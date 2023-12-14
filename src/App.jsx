@@ -80,7 +80,7 @@ const App = () => {
 
     if (selectedCpuObj && selectedGpuObj) {
       const cpuSocket = selectedCpuObj.socket.S;
-      const gpuLength = selectedGpuObj.length.N; // Assuming length is a number in your data
+      const gpuLength = selectedGpuObj.length.N;
       const gpuName = selectedGpuObj.name.S;
 
       if (
